@@ -166,13 +166,25 @@
 /* Mission Section */
 
 .mission{
-    background-image: url('../../assets/Rectangle\ 181.png');
-    background-repeat: no-repeat;
-    background-position: top 0 left 0;
     padding-top: 102px;
     background-color: #F3F3F3;
     position: relative;
     padding-bottom: 80px;
+    z-index: -2;
+}
+
+.mission-black-rectangle{
+    position: absolute;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #454545;
+    z-index: -1;
+}
+.mission-background-image{
+    top: 0;
+    position: absolute;
+    z-index: -1;
 }
 .line{
     position: absolute;
@@ -191,6 +203,7 @@
     color: #FFFFFF;
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     margin-bottom: 83px;
+    z-index: 1000;
 }
 .mission-text{
     font-weight: 600;
@@ -256,7 +269,7 @@
 }
 .train-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-right: 30px;
     padding-left: 30px;

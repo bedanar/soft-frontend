@@ -11,27 +11,6 @@ const MainPage = () => {
             <Header />
             <main>
                 <section className="hero">
-                    <div className="social-sites">
-                                {/* <ul class="social-sites-list">
-                                    <li>
-                                        <svg width="100" height="648" fill="#000" viewBox="0 0 100 400" xmlns="http://www.w3.org/2000/svg">
-                                            <rect width="1" height="400" />
-                                        </svg>
-                                    </li>
-                                    <div className="ul">
-                                        <li>
-                                        <a href="">
-                                            <img src="./assets/inst.svg" alt="" className="social-item" />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <img src="./assets/tiktok.svg" alt="" className="social-item" />
-                                        </a>
-                                    </li>
-                                    </div>
-                                </ul> */}
-                            </div>
                     <div className="container">
                         <div className="hero__content">
                             <div className="hero-texts">
@@ -72,6 +51,8 @@ const MainPage = () => {
                     </div>
                 </section>
                 <section className="mission">
+                    <div class="mission-black-rectangle">
+                    </div>
                     <div className="container mission-flex">
                         <div>
                             <h2 className="section__title-white">Наша миссия: </h2>
@@ -81,6 +62,7 @@ const MainPage = () => {
                         <div>
                             <img src="/mission__image.png"></img>
                         </div>
+                        <img src="/Rectangle 181.png" class="mission-background-image" />
                     </div>
                     <img src="/Vector 8.png" className="line"/>
                 </section>
