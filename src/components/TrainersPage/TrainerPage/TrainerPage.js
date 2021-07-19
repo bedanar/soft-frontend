@@ -3,7 +3,31 @@ import './TrainerPage.css'
 import TrainersPage from '../TrainersPage'
 
 const TrainerPage = () => {
-
+    const data = [
+        {
+            trainerStatus: 'Свободен',
+            fullName: 'Сергей Крайнов',
+            trainerPosition: 'Тренер',
+            trainerExperience: 'Более 5 лет',
+            trainingCost: '1000 руб / час',
+            trainerContacts: 'https://www.instagram.com/krainov_sergei/',
+            trainerAbout:
+            "Работаю фитнес тренером с 2016 года. В своей работе придерживаюсь правила «фитнес — для здоровья» и «не навреди». Помимо помощи в похудении и наборе мышц так же помогаю людям с болями в коленях, локтях и пояснице.Основная задача, которую я решаю с клиентами каждый день — это устранение последствий сидячего образа жизни (боли в шее и спине). Составляю планы тренировок и питания.Онлайн тренировки.",
+            trainingTypes:
+            [
+                {name: 'Фитнес', image: '/fitness.png'},
+                {name: 'Кардио', image: '/kardio.png'},
+                {name: 'Детский фитнес', image: '/kids.png'},
+                {name: 'ОФП', image: '/ofp.png'},
+                {name: 'ЛФК', image: '/lfp.png'},
+            ],
+            trainerAwards:
+            [ '/kraynov-1.png', '/kraynov-2.png', '/kraynov-3.png', '/kraynov-4.png', '/kraynov-4.png'],
+            trainerEducation:
+            ['Федерация фитнес-аэробики России, инструктор тренажёрного зала2016 г.',
+            'ООО МУЦ ДПО «Образовательный стандарт» , профессиональная переподготовка по программе «Педагогика и методика преподавания физической культуры», квалификация — тренер-преподаватель2019 г']
+        }
+    ]
     return (
         <div className="trainer-page__flex">
             <div className="trainer-page__information-left">
@@ -50,28 +74,28 @@ const TrainerPage = () => {
     Составляю планы тренировок и питания.
     Онлайн тренировки.</p>
                 </div>
-                <div className="training-types">
+                <div className="training-types-page">
                     <p className="trainer-desc__bold">Виды тренировок</p>
                     <ul class="train-list">
-                        <li class="train-list__item">
-                                <img class="train__img" src="/fitness.png"></img>
-                                <h3 class="train__heading">Фитнес</h3>
+                        <li class="train-list__item-page">
+                                <img class="train__img-page" src="/fitness.png"></img>
+                                <h3 class="train__heading-page">Фитнес</h3>
                         </li>
-                        <li class="train-list__item">
-                                <img class="train__img" src="/kardio.png"></img>
-                                <h3 class="train__heading">Кардио</h3>
+                        <li class="train-list__item-page">
+                                <img class="train__img-page" src="/kardio.png"></img>
+                                <h3 class="train__heading-page">Кардио</h3>
                         </li>
-                        <li class="train-list__item">
-                                <img class="train__img" src="/kids.png"></img>
-                                <h3 class="train__heading">Детский фитнес</h3>
+                        <li class="train-list__item-page">
+                                <img class="train__img-page" src="/kids.png"></img>
+                                <h3 class="train__heading-page">Детский фитнес</h3>
                         </li>
-                        <li class="train-list__item">
-                                <img class="train__img" src="/ofp.png"></img>
-                                <h3 class="train__heading">ОФП</h3>
+                        <li class="train-list__item-page">
+                                <img class="train__img-page" src="/ofp.png"></img>
+                                <h3 class="train__heading-page">ОФП</h3>
                         </li>
-                        <li class="train-list__item">
-                                <img class="train__img" src="/lfp.png"></img>
-                                <h3 class="train__heading">ЛФК</h3>
+                        <li class="train-list__item-page">
+                                <img class="train__img-page" src="/lfp.png"></img>
+                                <h3 class="train__heading-page">ЛФК</h3>
                         </li>
                     </ul>
                 </div>

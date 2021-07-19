@@ -3,12 +3,18 @@
     align-items: center;
     padding-top: 48px;
     justify-content: space-between;
+    /* position: relative; */
 }
 .apply-bg{
     background: #F4F4F4;
     background-image: url('../../../assets/ball.png');
     background-repeat: no-repeat;
     background-position: bottom -90px left -30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 .signup{
     display: flex;
@@ -43,4 +49,15 @@
 }
 .signup__img{
     width: 600px;
+}
+.popup-image{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.close-popup{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
 }

@@ -8,7 +8,7 @@ const Footer = () => {
                 <h2 className="footer__title">Связаться с нами</h2>
                 <ul className="social-sites__list">
                     <li className="social-list__item">
-                        <img src="/inst.png" />
+                        <img src="/inst (2).png" />
                         <a className="social__link">
                             https://www.instagram.com/soft_platform/
                         </a>

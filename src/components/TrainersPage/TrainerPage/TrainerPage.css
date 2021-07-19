@@ -148,7 +148,7 @@ button.close {
     padding-right: 30px;
     padding-left: 30px;
 }
-.train-list__item{
+.train-list__item-page{
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 45px;
     /* padding: 16px; */
@@ -160,11 +160,11 @@ button.close {
     flex-direction: column;
     justify-content: space-between;
 }
-.train__img{
+.train__img-page{
     border-radius: 26px;
     margin: 0 auto;
 }
-.train__heading{
+.train__heading-page{
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
