@@ -37,14 +37,11 @@ function App() {
     <div className="App">
         <Router>
           <Switch>
-            <Route exact path="/"> 
-              <MainPage />
+            <Route exact path="/" component={MainPage}> 
             </Route>
-            <Route exact path="/trainers"> 
-              <TrainersPage />
+            <Route  path="/trainers" component={TrainersPage}> 
             </Route>
-            <Route exact path="/trainer-page"> 
-              <TrainerPage data={data}/>
+            <Route  path="/trainer-page" component={TrainerPage}> 
             </Route>
           </Switch>
         </Router>

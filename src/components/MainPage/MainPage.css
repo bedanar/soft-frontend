@@ -1,24 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
-  p, h1, h2, h3, img, a, ul, li{
+*{
+    box-sizing: border-box;
+}
+p, h1, h2, h3, img, a, ul, li{
     margin: 0;
     padding: 0;
-  }
-  a{
+}
+a{
     text-decoration: none;
-  }
-  a:hover{
+}
+a:hover{
     cursor: pointer;
-  }
-  ul{
+}
+button:hover{
+    cursor: pointer;
+}
+ul{
     list-style: none;
-  }
-  body{
+}
+body{
     font-family: 'Montserrat', sans-serif;
-  }
-  .container{
-    width: 1188px;
+}
+.container{
+    max-width: 1188px; 
+    width: 100%;
     margin: 0 auto;
-  }
+    padding: 0 15px;
+}
 
 
 
@@ -400,4 +408,62 @@
     margin-bottom: 23px;
     width: 105px;
     height: 105px;
+}
+
+
+@media (max-width: 1452px){
+    /* .container{
+        width: 1024px;
+        margin: 0 auto;
+      } */
+    .list-item:not(:last-child){
+        margin-right: 50px;
+    }
+    .hero-title{
+        font-size: 44px;
+    }
+    .about-soft{
+        background-image: none;
+    }
+}
+
+@media (max-width: 1126px){
+    .hero__content{
+        flex-direction: column;
+        align-items: center
+    }
+    .hero-images{
+        margin-top: 40px;
+    }
+    .mission-flex{
+        flex-direction: column;
+    }
+    .train-list{
+        flex-wrap: wrap
+    }
+    .train-list__item{
+        margin-top: 20px
+    }
+}
+@media (max-width: 1080px){
+    .header__content{
+        justify-content: flex-start;
+    }
+    .nav__list{
+        margin-left: 50px
+    }
+}
+@media (max-width: 1014px){
+    .about-us__list, .results__list{
+        justify-content: space-evenly;
+    }
+    .steps__list{
+        justify-content: space-evenly;
+    }
+    .trainers-list{
+        justify-content: space-evenly;
+    }
+    .faq-list{
+        padding: 80px 20px;
+    }
 }

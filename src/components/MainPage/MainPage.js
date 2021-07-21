@@ -87,39 +87,41 @@ const MainPage = () => {
                     </ul>
                 </section>
                 <section className="training-types">
-                    <h2 className="section__title">Виды тренировок</h2>
-                    <ul className="train-list">
-                        <li className="train-list__item">
-                            <a>
-                                <img className="train__img" src="/___ 4.png"></img>
-                                <h3 className="train__heading">Фитнес</h3>
-                            </a>
-                        </li>
-                        <li className="train-list__item">
-                            <a>
-                                <img className="train__img" src="/trenirovki_doma_dlya_muzhchin_56 2.png"></img>
-                                <h3 className="train__heading">Кардио</h3>
-                            </a>
-                        </li>
-                        <li className="train-list__item">
-                            <a>
-                                <img className="train__img" src="/110543504-happy-african-american-woman-showing-ok-sign-while-sitting-on-black-yoga-mat-over-white-wall-backgro 1.png"></img>
-                                <h3 className="train__heading">Йога</h3>
-                            </a>
-                        </li>
-                        <li className="train-list__item">
-                            <a>
-                                <img className="train__img" src="/pilates-man-w760h570 1.png"></img>
-                                <h3 className="train__heading">Пилатес</h3>
-                            </a>
-                        </li>
-                        <li className="train-list__item">
-                            <a>
-                                <img className="train__img" src="/family.png"></img>
-                                <h3 className="train__heading">Для всей семьи</h3>
-                            </a>
-                        </li>
-                    </ul>
+                    <div className="container">
+                        <h2 className="section__title">Виды тренировок</h2>
+                        <ul className="train-list">
+                            <li className="train-list__item">
+                                <a>
+                                    <img className="train__img" src="/___ 4.png"></img>
+                                    <h3 className="train__heading">Фитнес</h3>
+                                </a>
+                            </li>
+                            <li className="train-list__item">
+                                <a>
+                                    <img className="train__img" src="/trenirovki_doma_dlya_muzhchin_56 2.png"></img>
+                                    <h3 className="train__heading">Кардио</h3>
+                                </a>
+                            </li>
+                            <li className="train-list__item">
+                                <a>
+                                    <img className="train__img" src="/110543504-happy-african-american-woman-showing-ok-sign-while-sitting-on-black-yoga-mat-over-white-wall-backgro 1.png"></img>
+                                    <h3 className="train__heading">Йога</h3>
+                                </a>
+                            </li>
+                            <li className="train-list__item">
+                                <a>
+                                    <img className="train__img" src="/pilates-man-w760h570 1.png"></img>
+                                    <h3 className="train__heading">Пилатес</h3>
+                                </a>
+                            </li>
+                            <li className="train-list__item">
+                                <a>
+                                    <img className="train__img" src="/family.png"></img>
+                                    <h3 className="train__heading">Для всей семьи</h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </section>
                 <section className="trainers">
                     <div className="container">

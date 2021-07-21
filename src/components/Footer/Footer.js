@@ -16,7 +16,7 @@ const Footer = () => {
                     <li className="social-list__item">
                         <img src="/tiktok.png" />
                         <a className="social__link">
-                            
+                            https://vm.tiktok.com/ZSJpP8Tew/
                         </a>
                     </li>
                     <li className="social-list__item">
