@@ -87,7 +87,7 @@ const MainPage = () => {
                     </ul>
                 </section>
                 <section className="training-types">
-                    <div className="container">
+                    <div className="">
                         <h2 className="section__title">Виды тренировок</h2>
                         <ul className="train-list">
                             <li className="train-list__item">

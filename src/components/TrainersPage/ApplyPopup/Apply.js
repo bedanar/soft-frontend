@@ -1,6 +1,5 @@
 import React from 'react'
 import './Apply.css'
-import { useState } from 'react'
 
 
 const Apply = (props) => {
@@ -10,6 +9,7 @@ const Apply = (props) => {
             <div className="container">
                 <div className="apply-flex">
                     <form className="signup">
+                        
                         <input type="text" placeholder="Имя" className="sign-up__input name__input" />
                         <input type="e-mail" placeholder="Электронная почта" className="sign-up__input mail__input" />
                         <input type="phone" placeholder="Телефон" className="sign-up__input phone__input" />

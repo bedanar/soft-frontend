@@ -5,8 +5,8 @@ import './TrainerPage.css'
 
 const TrainerPage = ({data}) => { 
     return (
-        <div className="trainer-page__flex">
-            <div className="trainer-page__information-left">
+        <div className="trainer-page__flex container">
+            <div className="trainer-page__information-left container">
                 <div className="left-flex">
                     <div className="align-left">
                         <button className="close" >
@@ -37,11 +37,11 @@ const TrainerPage = ({data}) => {
                 </div>
                 <div className="trainer__contacts">
                     <p className="trainer-desc__bold">Контакты:</p>
-                    <a className="social-site inst">{data.kraynov.trainerContacts}</a>
+                    <a className="social-site inst" href="https://www.instagram.com/krainov_sergei/"></a>
                     <a className="social-site phone"></a>
                 </div>
             </div>
-            <div className="trainer-page__information-right">
+            <div className="trainer-page__information-right container">
                 <div className="trainer__kredo">Для того, чтобы начать заниматься с тренером, необходимо написать ему напрямую через указанные контакты на странице.</div>
                 <div className="trainer__about">
                     <p className="trainer-desc__bold">О себе</p>

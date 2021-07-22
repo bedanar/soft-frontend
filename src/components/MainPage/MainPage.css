@@ -29,38 +29,6 @@ body{
 }
 
 
-
-.header{
-    background: #F4F4F4;
-    padding: 32px;
-}
-.header__content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{
-    height: 46px;
-    width: 77px;
-}
-.navbar{
-    margin: 0;
-    min-height: 0;
-}
-.nav__list{
-    display: flex;
-    align-items: center;
-}
-.list-item:not(:last-child){
-    margin-right: 98px;
-}
-.nav__list-item{
-    font-size: 15px;
-    color: #000000;
-}
-
-
-
 .hero{
     background-color: #F4F4F4;
     display: flex;
@@ -411,59 +379,14 @@ body{
 }
 
 
-@media (max-width: 1452px){
-    /* .container{
-        width: 1024px;
-        margin: 0 auto;
-      } */
-    .list-item:not(:last-child){
-        margin-right: 50px;
-    }
-    .hero-title{
-        font-size: 44px;
-    }
-    .about-soft{
-        background-image: none;
-    }
-}
 
-@media (max-width: 1126px){
-    .hero__content{
-        flex-direction: column;
-        align-items: center
+
+@media (max-width: 396px) {
+    .social__link{
+        font-size: 14px;
     }
-    .hero-images{
-        margin-top: 40px;
-    }
-    .mission-flex{
-        flex-direction: column;
-    }
-    .train-list{
-        flex-wrap: wrap
-    }
-    .train-list__item{
-        margin-top: 20px
-    }
-}
-@media (max-width: 1080px){
-    .header__content{
-        justify-content: flex-start;
-    }
-    .nav__list{
-        margin-left: 50px
-    }
-}
-@media (max-width: 1014px){
-    .about-us__list, .results__list{
-        justify-content: space-evenly;
-    }
-    .steps__list{
-        justify-content: space-evenly;
-    }
-    .trainers-list{
-        justify-content: space-evenly;
-    }
-    .faq-list{
-        padding: 80px 20px;
+    .trainers-list__item{
+        width: 284px;
+
     }
 }

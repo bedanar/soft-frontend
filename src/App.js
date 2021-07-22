@@ -33,15 +33,73 @@ function App() {
         'ООО МУЦ ДПО «Образовательный стандарт» , профессиональная переподготовка по программе «Педагогика и методика преподавания физической культуры», квалификация — тренер-преподаватель2019 г']
     }
   }
+  const trainerData = [
+    {
+      id: 1,
+      trainerClass: 'kraynov',
+      fullName: 'Сергей Крайнов',
+      info: 'Фитнеc, кардио, детский фитнес, ЛФК.',
+    },
+    {
+      id: 2,
+      trainerClass: 'isaeva',
+      fullName: 'Екатерина Исаева',
+      info: 'фитнес, хореография, Стретчинг, ОФП',
+    },
+    {
+      id: 3,
+      trainerClass: 'krasnova',
+      fullName: 'Наталья Краснова',
+      info: 'Фитнеc, кардио, ЛФК, ОФП, для всей семьи',
+    },
+    {
+      id: 4,
+      trainerClass: 'timofeev',
+      fullName: 'Кирилл Тимофеев',
+      info: 'Фитнеc, кардио, ОФП, ЛФК, для всей семьи, Групповые, Детский фитнес',
+    },
+    {
+      id: 5,
+      trainerClass: 'bortnik',
+      fullName: 'Роман Бортник',
+      info: 'фитнес, Стретчинг, ОФП, кроссфит, воркаут',
+    },
+    {
+      id: 6,
+      trainerClass: 'samoylova',
+      fullName: 'Самойлова Марина',
+      info: 'Фитнес, ОФП',
+    },
+    {
+      id: 7,
+      trainerClass: 'tsikhorsky',
+      fullName: 'Юрий Цихорский',
+      info: 'Фитнес',
+    },
+    {
+      id: 8,
+      trainerClass: 'pavlov',
+      fullName: 'Александр Павлов',
+      info: 'Фитнес, пилатес, ОФП.',
+    },
+    {
+      id: 9,
+      trainerClass: 'govrova',
+      fullName: 'Алиса Говорова',
+      info: 'Йога, групповые.',
+    },
+  ]
   return (
     <div className="App">
         <Router>
           <Switch>
             <Route exact path="/" component={MainPage}> 
             </Route>
-            <Route  path="/trainers" component={TrainersPage}> 
+            <Route  path="/trainers" > 
+              <TrainersPage trainers = {trainerData} />
             </Route>
-            <Route  path="/trainer-page" component={TrainerPage}> 
+            <Route  path="/trainer-page">
+              <TrainerPage data = {data} /> 
             </Route>
           </Switch>
         </Router>
